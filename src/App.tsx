@@ -1,12 +1,12 @@
 import { useState } from 'react';
-import logo from './logo.svg';
+import { ReactComponent as Logo } from './logo.svg';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="bg-slate-600 text-center flex flex-col items-center justify-center h-screen text-white">
-      <img src={logo} className="w-64" alt="logo" />
+      <Logo />
       <p>Hello Vite + React!</p>
       <p>
         <button
