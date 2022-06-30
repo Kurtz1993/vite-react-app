@@ -5,30 +5,33 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="bg-slate-600 text-center flex flex-col items-center justify-center h-screen text-white">
-      <Logo />
-      <p>Hello Vite + React!</p>
-      <p>
-        <button
-          type="button"
-          onClick={() => setCount(count => count + 1)}
-          className="rounded bg-teal-700 text-white py-1 p-4 transition duration-200 shadow-md hover:bg-teal-800 hover:shadow-lg"
-        >
-          count is: {count}
-        </button>
-      </p>
-      <p>
-        Edit <code>App.tsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-        {' | '}
-        <a className="App-link" href="https://vitejs.dev/guide/features.html" target="_blank" rel="noopener noreferrer">
-          Vite Docs
-        </a>
-      </p>
+    <div className="text-center">
+      <header className="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen text-xl">
+        <Logo className="h-[40vmin] animate-bounce" />
+        <p className='my-4'>Hello Vite + React!</p>
+        <p className='my-4'>
+          <button type="button" onClick={() => setCount(count => count + 1)} className="bg-cyan-800 text-white py-2 px-6 rounded">
+            count is: {count}
+          </button>
+        </p>
+        <p className='my-4'>
+          Edit <code>App.tsx</code> and save to test HMR updates.
+        </p>
+        <p className='my-4'>
+          <a className="text-cyan-300" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            Learn React
+          </a>
+          {' | '}
+          <a
+            className="text-cyan-300"
+            href="https://vitejs.dev/guide/features.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vite Docs
+          </a>
+        </p>
+      </header>
     </div>
   );
 }
