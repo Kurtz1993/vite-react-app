@@ -1,3 +1,4 @@
+import HelloWorld from '@app/components/HelloWorld';
 import { useState } from 'react';
 import { ReactComponent as Logo } from './logo.svg';
 
@@ -32,6 +33,7 @@ function App() {
           </a>
         </p>
       </header>
+      <HelloWorld name="Vite" />
     </div>
   );
 }
