@@ -53,23 +53,11 @@
         ],
         "newlines-between": "always"
       }
-    ]
-  },
-  "react/jsx-indent": ["warn", 2],
-  "react/jsx-indent-props": ["warn", 2],
-  "react/react-in-jsx-scope": "off",
-  "react/require-default-props": "off",
-  "jsx-a11y/label-has-associated-control": [
-    "error",
-    {
-      "required": {
-        "some": ["nesting", "id"]
-      }
-    }
-  ],
-  "no-shadow": "warn",
-  "@typescript-eslint/no-shadow": ["warn"],
-  "@typescript-eslint/no-use-before-define": ["error"],
-  "@typescript-eslint/explicit-function-return-type": "off",
-  "@typescript-eslint/explicit-module-boundary-types": "off"
+    ],
+    "react/jsx-indent": ["warn", 2],
+    "react/jsx-indent-props": ["warn", 2],
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
+    "no-shadow": "warn"
+  }
 }

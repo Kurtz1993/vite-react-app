@@ -1,0 +1,19 @@
+# logs
+*.log
+
+# dependencies
+package.json
+package-lock.json
+node_modules/
+
+# config files
+postcss.config.js
+tailwind.config.js
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env*
+tsconfig*.json

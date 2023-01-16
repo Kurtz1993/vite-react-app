@@ -11,6 +11,9 @@
   "emmet.triggerExpansionOnTab": true,
   "eslint.alwaysShowStatus": true,
   "eslint.run": "onSave",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "files.insertFinalNewline": true,
   "git.ignoreLimitWarning": true,
   "prettier.requireConfig": true
