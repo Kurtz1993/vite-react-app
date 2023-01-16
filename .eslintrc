@@ -56,6 +56,14 @@
     ],
     "react/jsx-indent": ["warn", 2],
     "react/jsx-indent-props": ["warn", 2],
+    "react/jsx-sort-props": [
+      "warn",
+      {
+        "reservedFirst": ["key", "ref"],
+        "ignoreCase": true,
+        "shorthandLast": true
+      }
+    ],
     "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "no-shadow": "warn"

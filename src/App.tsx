@@ -14,9 +14,9 @@ function App() {
         <p className="my-4">Hello Vite + React!</p>
         <p className="my-4">
           <button
-            type="button"
-            onClick={() => setCount(prev => prev + 1)}
             className="bg-cyan-800 text-white py-2 px-6 rounded"
+            onClick={() => setCount(prev => prev + 1)}
+            type="button"
           >
             count is: {count}
           </button>
@@ -25,15 +25,15 @@ function App() {
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p className="my-4">
-          <a className="text-cyan-300" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <a className="text-cyan-300" href="https://reactjs.org" rel="noopener noreferrer" target="_blank">
             Learn React
           </a>
           {' | '}
           <a
             className="text-cyan-300"
             href="https://vitejs.dev/guide/features.html"
-            target="_blank"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Vite Docs
           </a>
