@@ -54,6 +54,7 @@
         "newlines-between": "always"
       }
     ],
+    "react/button-has-type": "error",
     "react/jsx-indent": ["warn", 2],
     "react/jsx-indent-props": ["warn", 2],
     "react/jsx-sort-props": [
