@@ -13,7 +13,8 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/setupTests.ts',
     coverage: {
-      reporter: ['text', 'html'],
+      provider: 'v8',
+      reporter: ['lcovonly'],
       exclude: ['node_modules/', 'src/setupTests.ts'],
     },
   },
